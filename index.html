@@ -45,17 +45,17 @@
         <p class="code">var num = -1<br>
            for reports in json.result.size():<br>
                &nbsp; num += 1<br>
-               {{'\xa0'}} var r = json.result[num]<br>
-               {{'\xa0'}} var details = r.values()<br>
-         {{'\xa0'}} var id = details[0]<br>
-               {{'\xa0'}} var title = details[1]<br>
+               &nbsp; var r = json.result[num]<br>
+               &nbsp; var details = r.values()<br>
+         &nbsp; var id = details[0]<br>
+               &nbsp; var title = details[1]<br>
          ...<br>
-         {{'\xa0'}} create_li_box(id, title, assigned_to, issue, last_updated, created_at, resolution)<br>
+         &nbsp; create_li_box(id, title, assigned_to, issue, last_updated, created_at, resolution)<br>
          func create_li_box(id, title, assigned_to, issue, last_updated, created_at, resolution):<br>
-         {{'\xa0'}} var box = li_box.instance()<br>
-         {{'\xa0'}} list_box.add_child(box)<br>
-         {{'\xa0'}} box.id.set_text(str(id))<br>
-         {{'\xa0'}} box.title.set_text(title)<br>
+         &nbsp; var box = li_box.instance()<br>
+         &nbsp; list_box.add_child(box)<br>
+         &nbsp; box.id.set_text(str(id))<br>
+         &nbsp; box.title.set_text(title)<br>
          ...<br>
    
            </p>
