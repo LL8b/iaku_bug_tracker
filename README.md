@@ -1,5 +1,6 @@
 # iaku_bug_tracker
 v.0.0.2 | L.Blair, RR
+
 vue.js, express, sequelize, rest-api, gdscript, httpclient
 
 # install
