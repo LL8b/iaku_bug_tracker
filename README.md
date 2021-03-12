@@ -2,6 +2,7 @@
 v.0.0.2 | L.Blair, RR
 
 vue.js, express, sequelize, rest-api, gdscript, httpclient
+The front box and admin cms are combined for example purposes. However you can copy the front box and connect to the local node server however you like, there's also a exe for windows-desktop use. 
 
 # install
 With NPM installed.
@@ -13,6 +14,9 @@ cd / front-end [npm install]
 
 # edit PostgreSQL
 app/config/db.config.js
+
+# front box
+the wasm file sends request to [localhost:8080/api/bug_reports]
 
 # run in development
 start the server
