@@ -1,0 +1,38 @@
+{
+  "name": "bug_tracking_crud_01",
+  "version": "1.0.0",
+  "description": "CRUD example, L.BLAIR| Node, Express, Vue, GDscript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "helmet.js",
+    "vue.js",
+    "vue-router",
+    "vue-cli",
+    "sequelize",
+    "postgres",
+    "rest",
+    "api",
+    "gdscript"
+  ],
+  "author": "l.blair for R-R",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}

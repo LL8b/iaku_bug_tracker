@@ -1,0 +1,10 @@
+[{"id":10,
+  "title":"Spacing issue, homepage headers",
+  "issue":"The top banners on the index page are out of place, the top margin needs to be adjusted.",
+  "assigned_to":"Liza",
+  "resolution":"In Progress",
+  "last_updated":null,
+  "published":true,
+  "createdAt":"2021-03-10T01:39:57.439Z",
+  "updatedAt":"2021-03-10T07:34:22.645Z"
+  }]
