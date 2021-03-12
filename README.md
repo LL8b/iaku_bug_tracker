@@ -24,7 +24,7 @@ start the server
 cd /[node server.js]
 
 start vue
-cd/front_end/src/components [mpn run serve]
+cd/front_end/src/components [npm run serve]
 
 
 
